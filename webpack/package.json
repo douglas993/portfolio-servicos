@@ -8,7 +8,8 @@
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
     "calculadora": "node ./src/calc.js",
-    "startServer": "webpack-dev-server --mode production --open"
+    "startServer": "webpack-dev-server --mode production --open",
+    "mega-sena": "node ./src/mega-sena.js"
   },
   "keywords": [],
   "author": "",
