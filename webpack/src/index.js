@@ -1,13 +1,15 @@
-import {} from './instanciaClient.js';
+import { } from './instanciaClient.js';
+import { } from './promise.js';
+
+//const teste = require('./promise')
 
 const es = "ES2019";
 const td = "Você clicou no botão"
 console.log(es);
-var colors = [
-    'gray',
-    'brown',
-    'purple'
-]
+var x, y, z;
+x = 0, y = 0, z = 0;
+var rgb = 'rgb(' + x + ',' + y + ',' + z + ')'
+
 // // window.addEventListener("load",()=>{
 // //     alertButton();
 // // });
@@ -18,10 +20,9 @@ function testeButton() {
     console.log(td);
     var i = 0;
     setInterval(() => {
-        if (i > 2)
-            i = 0;
-        document.querySelector("body > h1").style.color = colors[i];
-        i++;
+            document.querySelector("body > h1").style.color = rgb;
+            x += 2 , y -= 1, z += 6;
+            rgb = 'rgb(' + x + ',' + y + ',' + z + ')'
     }, 500);
 }
 
