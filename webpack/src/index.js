@@ -1,5 +1,6 @@
 import { } from './instanciaClient.js';
 import { } from './promise.js';
+import style from './css/base.css';
 
 //const teste = require('./promise')
 
