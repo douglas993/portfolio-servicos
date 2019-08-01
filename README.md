@@ -20,3 +20,10 @@ addEventlistener é um metodo para quando acontece algum evento.
 *SASS - parece ser uma linguagem que permite a programação dentro dela, é um CSS com programação digamos assim.
 
 *Express é um middleware que faz o papel de fazer e responder requisições
+
+*Quando é criado uma função de callback e depois criado uma function que o retorno é callback, igual ta no código
+o parametro da chamada da sua função que chama a callback pode ter o nome que quiser, porque a função callback tem como
+parametros da sua biblioteca o primeiro parametro como um erro e o segundo como o retorno do valor daquilo que você
+queria executar
+
+*a biblioteca nodemon permite que alterações feitas no codigo possam ser vistas em live com as modificações no código, basta instalar de modo global e utiliza "nodemon ./[caminho]

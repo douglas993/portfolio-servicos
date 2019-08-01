@@ -23,6 +23,6 @@ api.use('/', router); //Toda requisição que chegar na pagina home da aplicaç�
 api.use('/portfolio', portfolioRouter);
 
 api.listen(port);  //A aplicação vai ficar escutando quais requisições vão chegar nessa porta
-console.log('Run API...');
+console.log('Run API Express...');
 
 
