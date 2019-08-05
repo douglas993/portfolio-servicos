@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastro de Serviços</title>
+    <link rel="stylesheet" href="../../bundle/css.css">
+
+    <!-- Inicio do código que peguei da inter -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../view/portfolio/crud.html">Cadastros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Fim do código que peguei da internet -->
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Página de cadastro de Serviços</h1>
+        <!-- <button>Teste</button> -->
+        <!-- <p>Só testando essa parada aqui com um CSS</p> -->
+
+        <div id="msg">
+
+        </div>
+
+        <div id="Listagem">
+            <button id="btn-exibir-formulario" type="button" class="btn btn-primary">Exibir formulario</button>
+            <br>
+            <br>
+
+            <div id="portfolios">
+
+            </div>
+        </div>
+
+        <div id="formulario">
+            <div class="row">
+                <div class="col-se">
+                    <form method="POST" action="/" id="form">
+                        <div class="form-group">
+                            <label for="id">Código</label>
+                            <input type="number" class="form-control" id="id" name="id" disabled="disabled">
+                        </div>
+                        
+
+
+                        <!-- <div>
+                            <label for="nomeHtml">Nome</label>
+                            <input type="text" id="nomeHtml" name="nomeHtml">
+                        </div>
+                        <div>
+                            <label for="emailHtml">Email</label>
+                            <input type="email" id="emailHtml" name="emailHtml">
+                        </div>
+                        <div>
+                            <input type="checkbox" id="emailPromocionalCheckHtml" name="emailPromocionalCheckHtml">
+                            <label for="emailPromocionalCheckHtml">Receber Email Promocional?</label>
+                        </div>
+                        <div>
+                            <label for="formaContatoTelefoneRadioHtml">Contato por telefone</label>
+                            <input type="radio" id="formaContatoTelefoneRadioHtml" name="formaContatoTelefoneRadioHtml">
+                            <label for="formaContatoEmailRadioHtml">Contato por Email</label>
+                            <input type="radio" name="formaContatoEmailRadioHtml" id="formaContatoEmailRadioHtml">
+                        </div>
+                        <div>
+                            <select name="estadoSelectHtml" id="estadoSelectHtml">
+                                <option selected>Selecione um Estado</option>
+                                <option value="CE">CE</option>
+                                <option value="SP">SP</option>
+                                <option value="RJ">RJ</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button id="cadastrar-html" type="button">Cadastrar</button>
+                        </div> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="../../bundle/babelpolyfill.bundle.js"></script>
+        <script src="../../bundle/index.bundle.js"></script>
+    </div>
+
+</body>
+<script>
+    // function testeButton(){
+    //     console.log("Qlqr coisa");
+    // }
+</script>
+
+</html>
