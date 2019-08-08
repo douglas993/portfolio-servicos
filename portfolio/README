@@ -1,0 +1,4 @@
+O comando npm run startServer não está funcionando
+Eu tenho que fazer isso funcionar depois para que quando for rodado o comando já abra o navegador automaticamente
+Evitando trabalho de se jogar o index no navegador
+Por algum motivo ele não está entendendo as rotas dos arquivos fora a demora na hora de carregar

@@ -9,7 +9,9 @@ module.exports = {
     entry: {
         // entry: ["babel-polyfill", "./src/index.js"], empacota tudo dentro do mesmo bundle
         babelpolyfill: "babel-polyfill",
-        index: "./src/index.js"
+        index: "./src/index.js",        
+        indexControllers: "./src/controllers/IndexControllers.js",
+        portfolioController: "./src/controllers/PortfolioController.js"
     },
     output: {
         path: path.resolve(__dirname, 'dist/bundle'),

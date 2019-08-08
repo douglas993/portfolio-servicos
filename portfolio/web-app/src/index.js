@@ -5,7 +5,7 @@ import base from './css/base.css';
 
 //const teste = require('./promise')
 
-const es = "ES2019";
+const es = "Procurando por algo?";
 const td = "Você clicou no botão"
 console.log(es);
 var x, y, z;
@@ -18,14 +18,16 @@ var rgb = 'rgb(' + x + ',' + y + ',' + z + ')'
 // function alertButton(){
 //     alert("Clica no botão ai");
 // }
-function testeButton() {
-    console.log(td);
-    var i = 0;
-    setInterval(() => {
-            document.querySelector("body > h1").style.color = rgb;
-            x += 2 , y -= 1, z += 6;
-            rgb = 'rgb(' + x + ',' + y + ',' + z + ')'
-    }, 500);
-}
 
-document.querySelector("body > button").addEventListener("click", testeButton);
+
+// function testeButton() {
+//     console.log(td);
+//     var i = 0;
+//     setInterval(() => {
+//             document.querySelector("body > h1").style.color = rgb;
+//             x += 2 , y -= 1, z += 6;
+//             rgb = 'rgb(' + x + ',' + y + ',' + z + ')'
+//     }, 500);
+// }
+
+// document.querySelector("body > button").addEventListener("click", testeButton);
