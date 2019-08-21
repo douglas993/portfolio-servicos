@@ -3,7 +3,6 @@ import PortfolioModel from "../models/portfolio/PortfolioModel";
 let objIndexController;
 let divPortfolios = window.document.getElementById("div-portfolios");
 
-
 class IndexController {
 
     getTodosIndex(divPortfolios) {
@@ -31,6 +30,7 @@ class IndexController {
 function main() {
     objIndexController = new IndexController();
     objIndexController.getTodosIndex(divPortfolios);
+    
 }
 
 window.onload = main;
